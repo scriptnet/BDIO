@@ -12401,7 +12401,7 @@ img.img-shadow,
 .header.header-transparent .extra-nav > ul > li > a.active,
 .header.header-transparent .inner-nav > ul > li > a:hover,
 .header.header-transparent .inner-nav > ul > li > a.active {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(132, 131, 131, 0.7);
 }
 
 .header.header-transparent .extra-nav > ul > li:first-child {
@@ -12869,8 +12869,9 @@ img.img-shadow,
 }
 
 .overlay-background.overlay-gradient {
-    background: #505cfd;
-    background: linear-gradient(to left, #000000de, #000000);
+    background: #000000;
+    background-image: linear-gradient(150deg, #bf0606 0%, #000000 100%);
+    background-repeat: repeat-x;
 }
 
 .divider-top {
