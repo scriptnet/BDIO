@@ -12160,7 +12160,7 @@ img.img-shadow,
 .double-bounce1,
 .double-bounce2 {
     position: absolute;
-    background-color: #000000;
+    background-image: linear-gradient(150deg, #bf0606 80%, #000000 100%);
     border-radius: 50%;
     opacity: .5;
     height: 100%;
